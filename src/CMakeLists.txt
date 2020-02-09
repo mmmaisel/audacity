@@ -1072,6 +1072,8 @@ list( APPEND SOURCES
       widgets/ReadOnlyText.h
       widgets/Ruler.cpp
       widgets/Ruler.h
+      widgets/SliderTextCtrl.h
+      widgets/SliderTextCtrl.cpp
       $<$<BOOL:${${_OPT}has_sentry_reporting}>:
          widgets/ErrorReportDialog.cpp
          widgets/ErrorReportDialog.h
