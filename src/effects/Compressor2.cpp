@@ -14,7 +14,6 @@
 *//*******************************************************************/
 
 
-#include "../Audacity.h" // for rint from configwin.h
 #include "Compressor2.h"
 
 #include <math.h>
@@ -23,7 +22,6 @@
 #include <wx/intl.h>
 #include <wx/valgen.h>
 
-#include "../Internat.h"
 #include "AColor.h"
 #include "Prefs.h"
 #include "../ProjectFileManager.h"
